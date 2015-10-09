@@ -63,8 +63,8 @@ function ensureValue(prop,value) {
 }
 
 module.exports = {
-    server: ensureValue("${test.server}","127.0.0.1"),
-    port: parseInt(ensureValue("${test.server.port}","1883")),
+    server: ensureValue("${test.server}","test.mosquitto.org"),
+    port: parseInt(ensureValue("${test.server.port}","8080")),
     path: ensureValue("${test.server.path}","/mqtt"),
     mqttVersion: parseInt(ensureValue("${test.server.mqttVersion}","3")),
     interopServer: ensureValue("${test.interopServer}","127.0.0.1"),

@@ -1,9 +1,12 @@
 {
-	"name": "paho-client",
-	"description": "Pre reqs for the Paho JS client",
-	"dependencies": {
-		"websocket": "1.x.x",
-		"node-localstorage": "0.x.x",
-		"jasmine-node": "1.11.x"
-	}
+  "name": "mqttws",
+  "private": true,
+  "description": "mqttws test environment",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jasmine-node": "^0.3.1",
+    "node-localstorage": "0.x.x",
+    "websocket": "1.x.x"
+  }
 }
